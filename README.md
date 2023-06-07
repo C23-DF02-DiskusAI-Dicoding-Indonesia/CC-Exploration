@@ -24,7 +24,7 @@ The Custom Training ML Model Workflow in Vertex AI involves several steps to tra
 8. Replica Configuration: For distributed training or handling large datasets, you can configure multiple replicas to parallelize the training process. This helps to accelerate training and improve scalability.
 9. Model Artifacts: During the training process, the model generates artifacts such as trained weights, checkpoints, and evaluation metrics. These artifacts represent the learned knowledge of the model and are crucial for later stages of the workflow.
 10. Model Resource in Vertex AI: Once the training is complete, you can create a model resource in Vertex AI. This resource serves as a container for storing and managing the trained model artifacts. It provides a centralized location for deploying and serving the model.
-
+<br>
 </default>
 
 
