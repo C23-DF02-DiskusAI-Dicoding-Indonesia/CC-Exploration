@@ -23,4 +23,17 @@ The Custom Training ML Model Workflow in Vertex AI involves several steps to tra
 
 
 ## VPC Network
+A VPC (Virtual Private Cloud) Network is a service provided by Google Cloud Platform (GCP) that allows you to create and manage isolated virtual networks in the cloud environment. In the context of Cloud Run, VPC Networks serve several purposes such as Network Isolation, Connectivity to internal resources, Securing access to Cloud Run, Routing, and Traffic management.
 
+1. Click "VPC Network" or "Networking" on the left sidebar.
+2. Click "Create VPC Network" or "Create Network" to create a new network.
+3. Provide a name for your VPC network and configure the necessary options. Choose the appropriate subnetting mode and IP options based on your requirements, ensuring to enable Private IP if you want to secure access to Cloud Run.
+4. Click "Create" or "Done" to create the VPC network.
+5. Once the VPC network is created, you can connect it to Cloud Run by configuring a VPC Connector. Go back to the main Google Cloud Console page.
+6. Select or create the project associated with Cloud Run.
+7. Click "Cloud Run" or "Serverless" on the left sidebar.
+8. Choose the Cloud Run service you want to connect to the VPC network.
+9. On the service detail page, locate the "Connections" or "Networking" section and select "Edit and deploy new revisions".
+10. In the configuration page, find the "VPC Connector" or "Networking" option and click "Add VPC Connector" or "Connect to VPC".
+11. Select the VPC network you want to connect from the available list. You can also configure the subnet and other settings if needed.
+12. After configuring the VPC Connector, click "Save" or "Deploy" to save the changes and apply the configuration to Cloud Run.
