@@ -25,6 +25,7 @@ The Custom Training ML Model Workflow in Vertex AI involves several steps to tra
 9. Model Artifacts: During the training process, the model generates artifacts such as trained weights, checkpoints, and evaluation metrics. These artifacts represent the learned knowledge of the model and are crucial for later stages of the workflow.
 10. Model Resource in Vertex AI: Once the training is complete, you can create a model resource in Vertex AI. This resource serves as a container for storing and managing the trained model artifacts. It provides a centralized location for deploying and serving the model.
 
+</default>
 
 
 ## VPC Network
@@ -48,4 +49,3 @@ A VPC (Virtual Private Cloud) Network is a service provided by Google Cloud Plat
 11. Select the VPC network you want to connect from the available list. You can also configure the subnet and other settings if needed.
 12. After configuring the VPC Connector, click "Save" or "Deploy" to save the changes and apply the configuration to Cloud Run.
     
-</default>
