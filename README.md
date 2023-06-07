@@ -10,7 +10,6 @@ We prepared the flow for Custom Training ML Model Workflow using Vertex AI just 
 
 <details>
 <summary>More Details</summary>
-<br>
 
 The Custom Training ML Model Workflow in Vertex AI involves several steps to train and deploy a machine learning model. Here is an explanation of the workflow:
 
@@ -24,8 +23,6 @@ The Custom Training ML Model Workflow in Vertex AI involves several steps to tra
 8. Replica Configuration: For distributed training or handling large datasets, you can configure multiple replicas to parallelize the training process. This helps to accelerate training and improve scalability.
 9. Model Artifacts: During the training process, the model generates artifacts such as trained weights, checkpoints, and evaluation metrics. These artifacts represent the learned knowledge of the model and are crucial for later stages of the workflow.
 10. Model Resource in Vertex AI: Once the training is complete, you can create a model resource in Vertex AI. This resource serves as a container for storing and managing the trained model artifacts. It provides a centralized location for deploying and serving the model.
-<br>
-</default>
 
 
 ## VPC Network
@@ -48,4 +45,6 @@ A VPC (Virtual Private Cloud) Network is a service provided by Google Cloud Plat
 10. In the configuration page, find the "VPC Connector" or "Networking" option and click "Add VPC Connector" or "Connect to VPC".
 11. Select the VPC network you want to connect from the available list. You can also configure the subnet and other settings if needed.
 12. After configuring the VPC Connector, click "Save" or "Deploy" to save the changes and apply the configuration to Cloud Run.
-    
+
+<br>
+</default>
