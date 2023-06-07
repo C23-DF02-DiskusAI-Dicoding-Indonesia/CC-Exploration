@@ -8,7 +8,7 @@
 
 We prepared the flow for Custom Training ML Model Workflow using Vertex AI just in case the Machine Learning team found dificulties while training their model.
 
-The Custom Training ML Model Workflow in Vertex AI involves several steps to train and deploy a machine learning model. Here is an explanation of the workflow from the beginning:
+The Custom Training ML Model Workflow in Vertex AI involves several steps to train and deploy a machine learning model. Here is an explanation of the workflow:
 
 1. Data Preparation: The workflow starts with preparing the data for training. This may involve extracting data from a SQL database or other data sources and transforming it into a suitable format for training.
 2. Model Development: Once the data is prepared, the next step is to develop the machine learning model. This typically involves writing code in a programming language such as Python and using machine learning libraries/frameworks like TensorFlow or PyTorch. The model code will define the architecture of the model and specify how it should be trained.
