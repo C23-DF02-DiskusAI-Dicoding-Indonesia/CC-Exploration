@@ -11,7 +11,6 @@ We prepared the flow for Custom Training ML Model Workflow using Vertex AI just 
 <details>
 <summary>More Details</summary>
 <br>
-</default>
 
 The Custom Training ML Model Workflow in Vertex AI involves several steps to train and deploy a machine learning model. Here is an explanation of the workflow:
 
@@ -48,3 +47,5 @@ A VPC (Virtual Private Cloud) Network is a service provided by Google Cloud Plat
 10. In the configuration page, find the "VPC Connector" or "Networking" option and click "Add VPC Connector" or "Connect to VPC".
 11. Select the VPC network you want to connect from the available list. You can also configure the subnet and other settings if needed.
 12. After configuring the VPC Connector, click "Save" or "Deploy" to save the changes and apply the configuration to Cloud Run.
+    
+</default>
